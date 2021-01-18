@@ -1,0 +1,4 @@
+SELECT name, manufacturing_cost
+FROM manufacturing.products
+WHERE manufacturing_cost < '10'
+;
